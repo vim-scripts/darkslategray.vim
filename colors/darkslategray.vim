@@ -2,14 +2,20 @@
 
 " Vim color file
 " Maintainer: Tuomas Susi <tsusi@cc.hut.fi>
-" Last Change: 2001 February 26
-" Version: 1.3
+" Last Change: 2003 June 18
+" Version: 1.4
 " URI: http://www.hut.fi/~/tsusi/vim/darkslategray.vim
 
-" Emacs in RedHat Linux used to have (still does?) this kind of 'Wheat on
-" DarkSlateGray' color scheme by default. This color scheme is for the GUI
-" only, I'm happy with default console colors.
+" Emacs in RedHat Linux used to have (still does?) a kind of 'Wheat on
+" DarkSlateGray' color scheme by default. This color scheme is created in the
+" same spirit. 
+"
+" Darkslategray is intended to be nice to your eyes (low contrast) and to take
+" advantage of syntax hilighting as much as possible. 
+"
+" This color scheme is for the GUI only, I'm happy with default console colors.
 " Needs at least vim 6.0.
+
 
 """ Init stuff
 
@@ -80,10 +86,10 @@ hi Statement            gui=bold guifg=LightSteelBlue
     hi Exception        gui=bold guifg=LightSteelBlue
 
 hi PreProc              guifg=Yellow2
-    hi Include          gui=bold guifg=Yellow4
+    hi Include          guifg=Yellow3
     hi Define           guifg=Yellow2
     hi Macro            guifg=Yellow2
-    hi PreCondit        guifg=RosyBrown3
+    hi PreCondit        gui=bold guifg=Yellow2
 
 hi Type                 gui=bold guifg=PaleGreen
     hi StorageClass     guifg=Green
@@ -93,7 +99,7 @@ hi Type                 gui=bold guifg=PaleGreen
 hi Special              guifg=Tomato
     "Underline Character
     hi SpecialChar      gui=underline guifg=Aquamarine
-    hi Tag              gui=bold,underline guifg=Tomato
+    hi Tag              guifg=DarkKhaki
     "Statement
     hi Delimiter        gui=bold guifg=LightSteelBlue
     "Bold comment (in Java at least)
@@ -107,3 +113,4 @@ hi Ignore               guifg=bg
 hi Error                gui=bold guifg=White guibg=Red
 
 hi Todo                 gui=bold guifg=Black guibg=Orchid1
+
