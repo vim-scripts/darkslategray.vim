@@ -2,8 +2,8 @@
 
 " Vim color file
 " Maintainer: Tuomas Susi <tsusi@cc.hut.fi>
-" Last Change: 2001 January 25
-" Version: 1.1
+" Last Change: 2001 January 27
+" Version: 1.2
 " URI: http://www.hut.fi/~/tsusi/vim/darkslategray.vim
 
 " Emacs in RedHat Linux used to have (still does?) this kind of 'Wheat on
@@ -79,11 +79,11 @@ hi Statement            gui=bold guifg=LightSteelBlue
     hi Keyword          gui=bold guifg=LightSteelBlue
     hi Exception        gui=bold guifg=LightSteelBlue
 
-hi PreProc              guifg=Yellow
+hi PreProc              guifg=Yellow2
     hi Include          gui=bold guifg=Yellow4
-    hi Define           guifg=Yellow
-    hi Macro            guifg=Yellow
-    hi PreCondit        guifg=LemonChiffon
+    hi Define           guifg=Yellow2
+    hi Macro            guifg=Yellow2
+    hi PreCondit        guifg=RosyBrown2
 
 hi Type                 gui=bold guifg=PaleGreen
     hi StorageClass     guifg=Green
@@ -96,7 +96,7 @@ hi Special              guifg=Tomato
     hi Tag              gui=bold,underline guifg=Tomato
     "Statement
     hi Delimiter        gui=bold guifg=LightSteelBlue
-    "Bold comment
+    "Bold comment (in Java at least)
     hi SpecialComment   gui=bold guifg=Orchid
     hi Debug            gui=bold guifg=Red
 
