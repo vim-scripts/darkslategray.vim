@@ -2,8 +2,8 @@
 
 " Vim color file
 " Maintainer: Tuomas Susi <tsusi@cc.hut.fi>
-" Last Change: 2004 September 30
-" Version: 1.6
+" Last Change: 2004 October 05
+" Version: 1.7
 
 " Emacs in RedHat Linux used to have (still does?) a kind of 'Wheat on
 " DarkSlateGray' color scheme by default. This color scheme is created in the
@@ -68,39 +68,39 @@ hi WildMenu             gui=bold guifg=#000000 guibg=#ffff00
 " Colors for syntax highlighting
 hi Comment              guifg=#da70d6
 
-hi Constant             guifg=#5cacee
+hi Constant             guifg=#cdcd00
     hi String           guifg=#7fffd4
     hi Character        guifg=#7fffd4
-    hi Number           guifg=#5cacee
-    hi Boolean          guifg=#4f94cd
-    hi Float            guifg=#63b8ff
+    hi Number           guifg=#ff6347
+    hi Boolean          guifg=#cdcd00
+    hi Float            guifg=#ff6347
 
 hi Identifier           guifg=#afeeee
-    hi Function         guifg=#cdba96
+    hi Function         guifg=#ffffff
 
-hi Statement            gui=bold guifg=#b0c4de
+hi Statement            gui=bold guifg=#4682b4
     hi Conditional      gui=bold guifg=#4682b4
     hi Repeat           gui=bold guifg=#4682b4
     hi Label            gui=bold guifg=#4682b4
-    hi Operator         gui=bold guifg=#b0c4de
-    hi Keyword          gui=bold guifg=#b0c4de
-    hi Exception        gui=bold guifg=#b0c4de
+    hi Operator         gui=bold guifg=#4682b4
+    hi Keyword          gui=bold guifg=#4682b4
+    hi Exception        gui=bold guifg=#4682b4
 
-hi PreProc              guifg=#eeee00
-    hi Include          guifg=#cdcd00
-    hi Define           guifg=#eeee00
-    hi Macro            guifg=#eeee00
-    hi PreCondit        gui=bold guifg=#eeee00
+hi PreProc              guifg=#cdcd00
+    hi Include          guifg=#ffff00
+    hi Define           guifg=#cdcd00
+    hi Macro            guifg=#cdcd00
+    hi PreCondit        guifg=#cdcd00
 
 hi Type                 gui=bold guifg=#98fb98
     hi StorageClass     guifg=#00ff00
     hi Structure        guifg=#20b2aa
-    hi Typedef          guifg=#afeeee
+    hi Typedef          guifg=#00ff7f
 
 hi Special              guifg=#ff6347
     "Underline Character
     hi SpecialChar      gui=underline guifg=#7fffd4
-    hi Tag              guifg=#cdba96
+    hi Tag              guifg=#ff6347
     "Statement
     hi Delimiter        gui=bold guifg=#b0c4de
     "Bold comment (in Java at least)
