@@ -2,8 +2,8 @@
 
 " Vim color file
 " Maintainer: Tuomas Susi <tsusi@cc.hut.fi>
-" Last Change: 2001 January 27
-" Version: 1.2
+" Last Change: 2001 February 26
+" Version: 1.3
 " URI: http://www.hut.fi/~/tsusi/vim/darkslategray.vim
 
 " Emacs in RedHat Linux used to have (still does?) this kind of 'Wheat on
@@ -36,20 +36,20 @@ hi ErrorMsg             gui=bold guifg=White guibg=Red
 hi VertSplit            gui=bold guifg=DarkKhaki guibg=Black
 hi Folded               guifg=Black guibg=DarkKhaki
 hi FoldColumn           guifg=Black guibg=DarkKhaki
-hi IncSearch            gui=reverse
+hi IncSearch            gui=bold guifg=Black guibg=White
 hi LineNr               gui=bold guifg=DarkKhaki guibg=DarkSlateGray4
 hi ModeMsg              gui=bold
 hi MoreMsg              gui=bold guifg=LightSeaGreen
 hi NonText              gui=bold guifg=White
 hi Normal               guibg=DarkSlateGray guifg=Wheat
 hi Question             gui=bold guifg=Tomato
-hi Search               guibg=Gold
+hi Search               gui=bold guifg=Black guibg=Gold
 hi SpecialKey           guifg=Cyan
 hi StatusLine           gui=bold guifg=Khaki guibg=Black
 hi StatusLineNC         guibg=DarkKhaki guifg=Gray25
 hi Title                gui=bold guifg=Tomato
 hi Visual               guifg=Black guibg=fg
-hi VisualNOS            gui=bold,underline
+hi VisualNOS            gui=bold guifg=Black guibg=fg
 hi WarningMsg           guifg=White guibg=Tomato
 hi WildMenu             gui=bold guifg=Black guibg=Yellow
 
@@ -83,7 +83,7 @@ hi PreProc              guifg=Yellow2
     hi Include          gui=bold guifg=Yellow4
     hi Define           guifg=Yellow2
     hi Macro            guifg=Yellow2
-    hi PreCondit        guifg=RosyBrown2
+    hi PreCondit        guifg=RosyBrown3
 
 hi Type                 gui=bold guifg=PaleGreen
     hi StorageClass     guifg=Green
@@ -106,4 +106,4 @@ hi Ignore               guifg=bg
 
 hi Error                gui=bold guifg=White guibg=Red
 
-hi Todo                 guifg=bg guibg=Gold
+hi Todo                 gui=bold guifg=Black guibg=Orchid1
