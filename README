@@ -1,0 +1,8 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=149
+
+Emacs in RedHat Linux used to have (still does?) a kind of 'Wheat on DarkSlateGray' color scheme by default. This color scheme is created in the same spirit.
+
+Darkslategray is intended to be nice to your eyes (low contrast) and to take advantage of syntax hilighting as much as possible.
+
+screenshot (rather old):
+http://www.hut.fi/~tsusi/vim/darkslategray.png
