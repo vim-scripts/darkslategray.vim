@@ -2,8 +2,8 @@
 
 " Vim color file
 " Maintainer: Tuomas Susi <tsusi@cc.hut.fi>
-" Last Change: 2001 November 16
-" Version: 1.0
+" Last Change: 2001 January 25
+" Version: 1.1
 " URI: http://www.hut.fi/~/tsusi/vim/darkslategray.vim
 
 " Emacs in RedHat Linux used to have (still does?) this kind of 'Wheat on
@@ -25,33 +25,33 @@ let g:colors_name = "darkslategray"
 """ Colors
 
 " GUI colors
-hi Cursor guifg=fg guibg=Orchid
-hi CursorIM guifg=NONE guibg=Orchid1
-hi Directory guifg=LightCyan
-hi DiffAdd guibg=DarkSlateGray4
-hi DiffChange guibg=Pink4
-hi DiffDelete gui=bold guifg=fg guibg=Black
-hi DiffText gui=bold guibg=SlateBlue3
-hi ErrorMsg gui=bold guifg=White guibg=Red
-hi VertSplit gui=bold guifg=DarkKhaki guibg=Black
-hi Folded guifg=Black guibg=DarkKhaki
-hi FoldColumn guifg=Black guibg=DarkKhaki
-hi IncSearch gui=reverse
-hi LineNr gui=bold guifg=Orange
-hi ModeMsg gui=bold
-hi MoreMsg gui=bold guifg=LightSeaGreen
-hi NonText gui=bold guifg=White
-hi Normal guibg=DarkSlateGray guifg=Wheat
-hi Question gui=bold guifg=Tomato
-hi Search guibg=Gold
-hi SpecialKey guifg=Cyan
-hi StatusLine gui=bold guifg=Khaki guibg=Black
-hi StatusLineNC guibg=DarkKhaki guifg=Gray25
-hi Title gui=bold guifg=Tomato
-hi Visual guifg=Black guibg=fg
-hi VisualNOS gui=bold,underline
-hi WarningMsg guifg=White guibg=Tomato
-hi WildMenu gui=bold guifg=Black guibg=Yellow
+hi Cursor               guifg=fg guibg=Orchid
+hi CursorIM             guifg=NONE guibg=Orchid1
+hi Directory            guifg=LightCyan
+hi DiffAdd              guibg=DarkSlateGray4
+hi DiffChange           guibg=Pink4
+hi DiffDelete           gui=bold guifg=fg guibg=Black
+hi DiffText             gui=bold guibg=SlateBlue3
+hi ErrorMsg             gui=bold guifg=White guibg=Red
+hi VertSplit            gui=bold guifg=DarkKhaki guibg=Black
+hi Folded               guifg=Black guibg=DarkKhaki
+hi FoldColumn           guifg=Black guibg=DarkKhaki
+hi IncSearch            gui=reverse
+hi LineNr               gui=bold guifg=DarkKhaki guibg=DarkSlateGray4
+hi ModeMsg              gui=bold
+hi MoreMsg              gui=bold guifg=LightSeaGreen
+hi NonText              gui=bold guifg=White
+hi Normal               guibg=DarkSlateGray guifg=Wheat
+hi Question             gui=bold guifg=Tomato
+hi Search               guibg=Gold
+hi SpecialKey           guifg=Cyan
+hi StatusLine           gui=bold guifg=Khaki guibg=Black
+hi StatusLineNC         guibg=DarkKhaki guifg=Gray25
+hi Title                gui=bold guifg=Tomato
+hi Visual               guifg=Black guibg=fg
+hi VisualNOS            gui=bold,underline
+hi WarningMsg           guifg=White guibg=Tomato
+hi WildMenu             gui=bold guifg=Black guibg=Yellow
 
 " I use GTK and don't wanna change these
 "hi Menu foobar
@@ -59,48 +59,51 @@ hi WildMenu gui=bold guifg=Black guibg=Yellow
 "hi Tooltip foobar
 
 " Colors for syntax highlighting
-hi Comment guifg=Orchid
+hi Comment              guifg=Orchid
 
-hi Constant guifg=Aquamarine
-    hi String guifg=Aquamarine
-    hi Character guifg=Aquamarine
-    hi Number guifg=LightBlue
-    hi Boolean guifg=LightCyan
-    hi Float guifg=LightBlue
+hi Constant             guifg=Aquamarine
+    hi String           guifg=Aquamarine
+    hi Character        guifg=Aquamarine
+    hi Number           guifg=LightBlue
+    hi Boolean          guifg=LightCyan
+    hi Float            guifg=LightBlue
 
-hi Identifier guifg=Thistle
-    hi Function guifg=White
+hi Identifier           guifg=Thistle
+    hi Function         guifg=White
 
-hi Statement gui=bold guifg=LightSteelBlue
-    hi Conditional gui=bold guifg=LightSteelBlue
-    hi Repeat gui=bold guifg=SteelBlue
-    hi Label gui=bold guifg=SteelBlue
-    hi Operator gui=bold guifg=LightSteelBlue
-    hi Keyword gui=bold guifg=LightSteelBlue
-    hi Exception gui=bold guifg=LightSteelBlue
+hi Statement            gui=bold guifg=LightSteelBlue
+    hi Conditional      gui=bold guifg=LightSteelBlue
+    hi Repeat           gui=bold guifg=SteelBlue
+    hi Label            gui=bold guifg=SteelBlue
+    hi Operator         gui=bold guifg=LightSteelBlue
+    hi Keyword          gui=bold guifg=LightSteelBlue
+    hi Exception        gui=bold guifg=LightSteelBlue
 
-hi PreProc        guifg=Yellow
-    hi Include        gui=bold guifg=Yellow4
-    hi Define         guifg=Yellow
-    hi Macro          guifg=Yellow
-    hi PreCondit      guifg=LemonChiffon
+hi PreProc              guifg=Yellow
+    hi Include          gui=bold guifg=Yellow4
+    hi Define           guifg=Yellow
+    hi Macro            guifg=Yellow
+    hi PreCondit        guifg=LemonChiffon
 
-hi Type           gui=bold guifg=PaleGreen
-    hi StorageClass   guifg=Green
-    hi Structure      guifg=LightSeaGreen
-    hi Typedef        guifg=PaleTurquoise
+hi Type                 gui=bold guifg=PaleGreen
+    hi StorageClass     guifg=Green
+    hi Structure        guifg=LightSeaGreen
+    hi Typedef          guifg=PaleTurquoise
 
-hi Special        guifg=Tomato
-    hi SpecialChar    gui=underline guifg=Aquamarine "Underline Character
-    hi Tag            gui=bold,underline guifg=Tomato
-    hi Delimiter      gui=bold guifg=LightSteelBlue "Statement
-    hi SpecialComment gui=bold guifg=Orchid "Bold comment
-    hi Debug          gui=bold guifg=Red
+hi Special              guifg=Tomato
+    "Underline Character
+    hi SpecialChar      gui=underline guifg=Aquamarine
+    hi Tag              gui=bold,underline guifg=Tomato
+    "Statement
+    hi Delimiter        gui=bold guifg=LightSteelBlue
+    "Bold comment
+    hi SpecialComment   gui=bold guifg=Orchid
+    hi Debug            gui=bold guifg=Red
 
-hi Underlined     gui=underline
+hi Underlined           gui=underline
 
-hi Ignore         guifg=bg
+hi Ignore               guifg=bg
 
-hi Error          gui=bold guifg=White guibg=Red
+hi Error                gui=bold guifg=White guibg=Red
 
-hi Todo           guifg=bg guibg=Gold
+hi Todo                 guifg=bg guibg=Gold
